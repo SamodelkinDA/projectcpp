@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe сборка активного файла",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": ["-std=c++17",
+                "-fdiagnostics-color=always",
+                "-g", "main.cpp", "ship.cpp", "cell.cpp", "field.cpp", "-o", "seabattle.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
